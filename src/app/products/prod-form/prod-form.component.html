@@ -1,0 +1,23 @@
+<div class="card mb-2">
+    <div class="card-body">
+        <form [formGroup]="prodForm" (ngSubmit)="onProdAdd()">
+
+            <div class="form-group">
+                <label for="pname"> Product Name </label>
+                <input type="text" formControlName = "pname"  class="form-control">
+            </div>
+    
+            <div class="form-group">
+                <label for="pname"> Product Name </label>
+                <textarea type="text" formControlName = "pdetails"  class="form-control"></textarea>
+            </div>
+    
+            <div class="text-right">
+                <button mat-raised-button color="accent"
+                [disabled]="prodForm.invalid"
+                > Add Product</button>
+            </div>
+    
+        </form>
+    </div>
+</div>
