@@ -7,6 +7,7 @@ import { ProductsModule } from './products/products.module';
 import { MaterialModule } from './material/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
+import { PostsModule } from './posts/posts.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     ProductsModule,
     MaterialModule,
     BrowserAnimationsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    PostsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

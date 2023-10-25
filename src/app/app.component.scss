@@ -4,35 +4,35 @@
 //     animation: para 5s linear 1s infinite alternate fill-mode;
 // }
 
-#inProgress {
-    text-align: center;
-    font-size: 32px;
+// #inProgress {
+//     text-align: center;
+//     font-size: 32px;
     // width: 400px;
     // height: 100px;
-    position: relative;
-    animation-name: GFG;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    // position: relative;
+    // animation-name: GFG;
+    // animation-duration: 5s;
+    // animation-timing-function: linear;
+    // animation-delay: 1s;
+    // animation-iteration-count: infinite;
+    // animation-direction: alternate;
     // border-radius: 50%;
-}
+// }
 
 
 
-@keyframes GFG {
-    0% {
-        left: 0px;
-        top: 0px;
-    }
+// @keyframes GFG {
+//     0% {
+//         left: 0px;
+//         top: 0px;
+//     }
 
-    50% {
-        left: 0;
-        top: 200px;
-    }
-    100% {
-        left: 0px;
-        top: 0px;
-    }
-}
+//     50% {
+//         left: 0;
+//         top: 200px;
+//     }
+//     100% {
+//         left: 0px;
+//         top: 0px;
+//     }
+// }
