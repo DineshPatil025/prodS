@@ -9,10 +9,12 @@
             </div>
             <div class="form-group">
                 <label for="content">Content</label>
-                <input type="text" formControlName = "content" class="form-control">
+                <textarea type="text" formControlName = "content" class="form-control"></textarea>
             </div>
             <div class="text-right">
-                <button mat-raised-button color="primary">Add Post</button>
+                <button mat-raised-button color="primary"
+                [disabled]="postForm.invalid"
+                >Add Post</button>
             </div>
         </form>
     </div>
